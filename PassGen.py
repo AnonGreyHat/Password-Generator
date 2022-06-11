@@ -5,10 +5,28 @@ N = '\033[1;37m' # White
 G = '\033[32m' # Green
 O = '\033[0;33m' # Orange
 B = '\033[1;34m' #Blu
-print ('''
-''')
 
-print(""+G+"Hello, Welcom To Password Generator!\n")
+
+print(B+""" 
+ ___  ____ ____ ____ _ _ _ ____ ____ ___  
+ |__] |__| [__  [__  | | | |  | |__/ |  \ 
+ |    |  | ___] ___] |_|_| |__| |  \ |__/ 
+                                          
+
+ ____ ____ _  _ ____ ____ ____ ___ ____ ____ 
+ | __ |___ |\ | |___ |__/ |__|  |  |  | |__/ 
+ |__] |___ | \| |___ |  \ |  |  |  |__| |  \ 
+                                             """)
+print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")                                                                                          
+                                             
+print(""+O+ """
+[+]Tool name: Password-Generator
+[+]Creator:AnonGreyHat(Pro Cracker)
+[+]Team: Dark Exploit Hacker
+[+]Github: https://github.com/anongreyhat
+[+]Contact me on whatsapp:+2349042794223
+""")
+print(""+G+"Hello, Welcome To Password Generator!\n")
 MAX_LEN = 12
 DIGITS = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'] 
 LOCASE_CHARACTERS = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h',
@@ -47,4 +65,4 @@ for x in range(MAX_LEN - 4):
 password = ""
 for x in temp_pass_list:
         password = password + x
-print("password: " + password)
+print("password: " +N+ password)
